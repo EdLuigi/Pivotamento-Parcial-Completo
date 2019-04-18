@@ -1,0 +1,1 @@
+# Pivotamento-Parcial-Completo
