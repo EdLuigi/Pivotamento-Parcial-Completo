@@ -55,8 +55,9 @@ const definirNovoPivo = i => {
 
     for (j = i; j < ordem; j++) {
         for (k = i; k < ordem; k++) {
-            if (valorAbsoluto(matriz[j][k]) > matriz[maior_linha][maior_coluna])
+            if (valorAbsoluto(matriz[j][k]) > matriz[maior_linha][maior_coluna]) {
                 maior_linha = j; maior_coluna = k;
+            }
         }
     }
     trocaDeLinhas(maior_linha, i);
